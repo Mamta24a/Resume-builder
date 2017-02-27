@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="dist/jquery.table2excel.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(e){
+	    
+		$("#myButton").click(function(e) {
+		
+		    $(".myTable").table2excel({
+			     
+				 name:"your  file name",
+                 filename: "myfile"	,
+                 fileext: ".xls" 				 
+			
+			});
+		});
+	});
+</script>
+
+</head>
+
+
+<body>
+
+<h1>hurrrrrrrrrrrrrr</h1>
+
+<button id="myButton">click to download csv</button>
+
+<table class="myTable" border="1">
+<tr>
+   <th>header 1</th>
+   <th>header 2</th>
+   <th>header 3</th>
+   <th>header 4</th>
+</tr>
+
+<tr>
+    <td>data 11</td>
+    <td>data 12</td>
+    <td>data 13</td>
+    <td>data 14</td>
+</tr>
+<tr>
+    <td>data 11</td>
+    <td>data 12</td>
+    <td>data 13</td>
+    <td>data 14</td>
+</tr>
+<tr>
+    <td>data 11</td>
+    <td>data 12</td>
+    <td>data 13</td>
+    <td>data 14</td>
+</tr>
+<tr>
+    <td>data 11</td>
+    <td>data 12</td>
+    <td>data 13</td>
+    <td>data 14</td>
+</tr>
+<tr>
+    <td>data 11</td>
+    <td>data 12</td>
+    <td>data 13</td>
+    <td>data 14</td>
+</tr>
+
+
+</table>
+
+</body>
+</html>

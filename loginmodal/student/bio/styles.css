@@ -1,0 +1,97 @@
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 40px;
+	bottom: 40px;
+	background: lightseagreen url("up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+a:hover.back-to-top {
+	background-color: turquoise;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+font-family: 'Titillium Web', sans-serif;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=file], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+font-family: 'Titillium Web', sans-serif;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input{font-family: 'Titillium Web', sans-serif;}
+
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+width:100%;
+height:100px;
+border-radius:4px;
+ border: 1px solid #ccc;
+font-family: 'Titillium Web', sans-serif;
+}
+
+#fromto{
+width:34%;
+}
+
+#addmore{width:30%;}
+
+input[type=submit] {
+    width: 100%;
+    background-color: lightseagreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkturquoise;
+}
+
+#bio-box {
+	border:1px solid;
+	border-color:darkgrey;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 120px;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin:150px;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  opacity:0.9;
+}

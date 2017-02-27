@@ -1,0 +1,25 @@
+ 
+
+
+CV Builder - Test1
+
+This app is in development mode and can only be used by app admins, developers and testers 
+
+
+
+
+API Version
+
+v2.8 
+
+
+App ID
+
+522358604627960 
+
+
+
+App Secret
+
+e5cfa820962a096573affb7d7bfe53d0 
+ 

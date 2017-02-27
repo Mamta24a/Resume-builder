@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Employers Login</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">  
+    <link rel="stylesheet" href="font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css">
+
+    
+<script src="js/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#myModal-4").modal('show');
+	});
+</script>
+
+  </head>
+  <body background="rjitcvbg.jpg" no repeat style="background-size: cover">
+  
+  <!-- facebook integration -->
+  
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '522358604627960',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  
+  
+  
+    
+<!-- Modal -->
+<div id="myModal-4" class="modal fade" role="dialog" data-keyboard="false" data-backdrop="static">
+  <div class="modal-dialog" style="border:2px solid grey; box-shadow: 0 4px 10px 4px rgba(192,192,192,0.4); border-radius:10px">
+
+    <!-- Modal content-->
+    <div class="modal-content" style="background:black; opacity:1">
+     
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" style="color:white"></button>
+        
+        <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 form-box" style="margin-top:0px">
+                        	<div class="form-top" >
+                        		<div class="form-top-left">
+                        			<h3>Login for Employers</h3>
+                            		
+                        		</div>
+                        		<div class="form-top-right">
+                        			<i class="fa fa-lock"></i>
+                        		</div>
+                            </div>
+                            <div class="form-bottom" >
+			                    <form role="form" action="authloginemp.php" method="post" class="login-form">
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="form-username">Email</label>
+			                        	<input name="email" type="text" name="form-username" placeholder="Email..." class="form-username form-control" id="form-username">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-password">Password</label>
+			                        	<input name="PW" type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+			                        </div>
+			                        <button name="submit" type="submit" class="btn" style="background-color:lightseagreen;color:white;font-weight:100;height:50px;border:3px solid #279B95;font-size:20px">Login</button>
+			                    <a href="" style="height:100px; align-content:right" data-toggle="modal" data-target="#myModal-6" data-dismiss="modal">forgot password?</a>
+								<a href="" data-toggle="modal" data-target="#myModal-5" data-dismiss="modal"> | sign up</a>
+								</form>
+		                    </div>
+                        </div>
+                    </div>
+
+
+        
+        
+        <div class="row" >
+                        <div class="col-sm-10 col-sm-offset-1 social-login" style="margin-top:0px">
+                        	
+                        	<div class="social-login-buttons">
+	                        	<a class="btn btn-link-1 btn-link-1-facebook" href="#">
+	                        		<i class="fa fa-facebook"></i> Facebook
+	                        	</a>
+	                        	<a class="btn btn-link-1 btn-link-1-twitter" href="#">
+	                        		<i class="fa fa-twitter"></i> Twitter
+	                        	</a>
+	                        	<a class="btn btn-link-1 btn-link-1-google-plus" href="#">
+	                        		<i class="fa fa-google-plus"></i> Google Plus
+	                        	</a>
+                        	</div>
+                        </div>
+                    </div>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+        
+		
+		
+		
+		
+<!-- Modal -->
+<div id="myModal-5" class="modal fade" role="dialog" data-keyboard="false" data-backdrop="static">
+  <div class="modal-dialog" style="border:2px solid grey; box-shadow: 0 4px 10px 4px rgba(192,192,192,0.4); border-radius:10px" >
+
+    <!-- Modal content-->
+    <div class="modal-content" style="background:black; opacity:1">
+     
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" style="color:white"></button>
+        
+        <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 form-box" style="margin-top:0px">
+                        	<div class="form-top" >
+                        		<div class="form-top-left">
+                        			<h3>Signup for Employers</h3>
+                            		
+                        		</div>
+                        		<div class="form-top-right">
+                        			<i class="fa fa-lock"></i>
+                        		</div>
+                            </div>
+                            <div class="form-bottom" >
+			                    <form role="form" action="insertsigninemp.php" method="post" class="login-form">
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="form-username">Full Name</label>
+			                        	<input type="text" name="FN" placeholder="Ful Name..." class="form-username form-control" id="form-username">
+			                        </div>
+                                    <div class="form-group">
+			                    		<label class="sr-only" for="form-username">Email</label>
+			                        	<input type="text" name="email" placeholder="Email..." class="form-username form-control" id="form-username">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-password">Password</label>
+			                        	<input type="password" name="PW" placeholder="Password..." class="form-password form-control" id="form-password">
+			                        </div>
+			                        <button name="submit" type="submit" class="btn" style="background-color:lightseagreen;color:white;font-weight:100;height:50px;border:3px solid #279B95;font-size:20px">Sign in!</button>
+			            
+								<a href="" data-toggle="modal" data-target="#myModal-4" data-dismiss="modal">login</a>
+								
+								</form>
+		                    </div>
+                        </div>
+                    </div>
+        
+        
+        
+        <div class="row" >
+                        <div class="col-sm-10 col-sm-offset-1 social-login" style="margin-top:0px">
+                        	
+                        	<div class="social-login-buttons">
+	                        	<a class="btn btn-link-1 btn-link-1-facebook" href="#">
+	                        		<i class="fa fa-facebook"></i> Facebook
+	                        	</a>
+	                        	<a class="btn btn-link-1 btn-link-1-twitter" href="#">
+	                        		<i class="fa fa-twitter"></i> Twitter
+	                        	</a>
+	                        	<a class="btn btn-link-1 btn-link-1-google-plus" href="#">
+	                        		<i class="fa fa-google-plus"></i> Google Plus
+	                        	</a>
+                        	</div>
+                        </div>
+                    </div>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div id="myModal-6" class="modal fade" role="dialog" data-keyboard="false" data-backdrop="static">
+  <div class="modal-dialog" style="border:2px solid grey; box-shadow: 0 4px 10px 4px rgba(192,192,192,0.4); border-radius:10px" >
+
+    <!-- Modal content-->
+    <div class="modal-content" style="background:black; opacity:1">
+     
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" style="color:white"></button>
+        
+        <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 form-box" style="margin-top:0px;padding-bottom:40px">
+                        	<div class="form-top" >
+                        		<div class="form-top-left">
+                        			<h3>Forgot password</h3>
+                            		
+                        		</div>
+                        		<div class="form-top-right">
+                        			<i class="fa fa-key"></i>
+                        		</div>
+                            </div>
+                            <div class="form-bottom" style="padding-bottom:25px" >
+			                    <form role="form" action="forgot_emp.php" method="post" class="login-form">
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="form-username" >Email</label>
+			                        	<input type="text" name="email" placeholder="Email..." class="form-username form-control" id="form-username">
+			                        </div>
+									
+			                        <button name="forgot" type="submit" class="btn" style="background-color:lightseagreen;color:white;font-weight:100;height:50px;border:3px solid #279B95;font-size:20px">Send Password</button>
+			                   <a href="" style="height:100px; align-content:right" data-toggle="modal" data-target="#myModal-4" data-dismiss="modal">login</a>
+								<a href="" data-toggle="modal" data-target="#myModal-5" data-dismiss="modal"> | sign up</a>
+								
+							   </form>
+		                    </div>
+                        </div>
+                    </div>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

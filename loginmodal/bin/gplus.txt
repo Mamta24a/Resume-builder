@@ -1,0 +1,5 @@
+OAuth client
+Here is your client ID
+58271569139-55d0cp67dqkh1qekbh7pcgsiugoevkbm.apps.googleusercontent.com
+Here is your client secret
+PwCTw6RWYQsuJobuv1P-tCeN
